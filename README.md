@@ -1,6 +1,6 @@
 # JavaScript - PHP Cross Platform Communication Framwork (JSFramwork)
 
-You can execute php functions direct from the Frontend(JS)
+You Can Execute PHP Functions Directly From The Frontend(JS)
 
 * First You Need To Import JSFramwork(PHP) And Just Create A PHP Class File
 
