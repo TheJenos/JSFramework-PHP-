@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="JS/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="JS/JSframwork.js"></script>
+        <script type="text/javascript">
+            var js = new JSframwork("test.php");
+            var jss = new JSframwork("test.php?d");
+        </script>
+    </head>
+    <body>
+        <input type="text" id="hh">
+        <button onclick='js.getText($("#hh").val(),function (data) {alert(data)});'>dasdadad</button>
+        <input type="text" id="hhs">
+        <button onclick='jss.getText($("#hhs").val(),function (data) {alert(data)});'>dasdadad</button>
+    </body>
+</html>
