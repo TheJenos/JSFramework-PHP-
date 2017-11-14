@@ -17,9 +17,9 @@ class JSFramwork {
     function runMethods($name) {
         $this->json['MethodName'] = $name;
         if(isset($_POST['para'])) {
-            $this->json['Retrun'] = json_encode(call_user_func_array(array($this->object, $name), $_POST['para']));
+            $this->json['Return'] = json_encode(call_user_func_array(array($this->object, $name), $_POST['para']));
         }else{
-            $this->json['Retrun'] = json_encode(call_user_func(array($this->object, $name)));
+            $this->json['Return'] = json_encode(call_user_func(array($this->object, $name)));
         }
     }
 

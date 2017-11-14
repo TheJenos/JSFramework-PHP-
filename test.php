@@ -4,8 +4,8 @@ include './Backend/Framwork.php';
 
 class test {
 
-    function getText($lol) {
-        return "sadasdasdasd----" . $lol;
+    function getText($lol,$ls) {
+        return $ls."sadasdasdasd----" . $lol;
     }
 
     function getTexts() {

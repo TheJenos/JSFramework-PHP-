@@ -16,7 +16,7 @@ function JSframwork(name) {
             var fun = (typeof oldcallback === 'function');\
             var callback = function (data){\
                 var obj = JSON.parse(data);\
-                oldcallback(obj.Retrun);\
+                oldcallback(obj.Return);\
             };\
             if(fun){\
                 for (var i = 0; i < arguments.length-1; i++){\
